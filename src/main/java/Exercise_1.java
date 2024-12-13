@@ -9,13 +9,7 @@ class Exercise_1 {
             return;
         }
 
-        int n;
-        try {
-            n = Integer.parseInt(args[0]);
-        } catch (NumberFormatException e) {
-            System.out.println("Error: Input must be a valid integer.");
-            return;
-        }
+        int n = Integer.parseInt(args[0]);
 
         int[] arr = new int[numElements];
 
